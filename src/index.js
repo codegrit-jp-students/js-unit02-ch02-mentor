@@ -17,7 +17,7 @@ const propertyData = {
 function handleClick(e) {
   e.preventDefault();
   const mainEl = document.getElementById('main');
-  return showData()
+  return getData()
     .then((data) => {
       mainEl.innerHTML = `
         <div className="property-info-wrapper">
